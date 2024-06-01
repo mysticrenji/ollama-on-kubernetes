@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: ollama-webui
-          image: ghcr.io/ollama/open-webui:cache-ollama-linux-arm64-dev
+          image: ghcr.io/ollama/open-webui:main
           env:
             - name: OLLAMA_API_BASE_URL
               value: "http://ollama:11434/api"
