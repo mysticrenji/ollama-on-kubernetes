@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: ollama
-          image: ollama/ollama:0.2.2
+          image: ollama/ollama:0.2.5
           volumeMounts:
             - mountPath: /root/.ollama
               name: ollama-storage
